@@ -1,0 +1,10 @@
+package: BeeGoREST
+import:
+- package: github.com/astaxie/beego
+  version: v1.11.1
+  subpackages:
+  - context/param
+  - migration
+  - orm
+- package: github.com/go-sql-driver/mysql
+  version: v1.4.1

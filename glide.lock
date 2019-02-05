@@ -1,0 +1,30 @@
+hash: a52306b8e200fe71be4d2b4b4dc3a2a59a66fc3365e558694394a44a04994fd9
+updated: 2019-02-06T01:25:54.4188737+07:00
+imports:
+- name: github.com/astaxie/beego
+  version: 1b6edafc96ad27b6515fafeccd7339dda3e997b1
+  subpackages:
+  - config
+  - context
+  - context/param
+  - grace
+  - logs
+  - migration
+  - orm
+  - session
+  - toolbox
+  - utils
+- name: github.com/go-sql-driver/mysql
+  version: 72cd26f257d44c1114970e19afddcd812016007e
+- name: golang.org/x/crypto
+  version: fd5f17ee729917fcb39f16421460212d917a0813
+  subpackages:
+  - acme
+  - acme/autocert
+- name: google.golang.org/appengine
+  version: 2d2298565d5a399bdfec98dbc259d6393e3cf8ba
+  subpackages:
+  - cloudsql
+- name: gopkg.in/yaml.v2
+  version: 51d6538a90f86fe93ac480b35f37b2be17fef232
+testImports: []
