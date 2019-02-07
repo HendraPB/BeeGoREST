@@ -38,7 +38,7 @@ func AddCity(m *City) (id int64, err error) {
 func GetCityById(id int) (v *City, err error) {
 	o := orm.NewOrm()
 	v = &City{Id: id}
-	if err = o.Read(v); err == nil {
+	if err = o.QueryTable(new(City)).Filter("Id", v.Id).RelatedSel().One(v); err == nil {
 		return v, nil
 	}
 	return nil, err

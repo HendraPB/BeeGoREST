@@ -1,5 +1,6 @@
 vendor/
 swagger/
 *.exe
+*.exe~
 *.zip
 *.tmp
